@@ -1,4 +1,4 @@
-<h3 align="center">Embedded Systems, Neural Networks, and Algorithms Enthusiast. </h3>
+<h2 align="center">Embedded Systems, Neural Networks, and Algorithms Enthusiast. </h2>
 
 
 - I like to understnad concepts from the ground up and write my own code infrastructure from scratch.

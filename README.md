@@ -9,3 +9,11 @@
 - Competent in: `Rust`, `AVR Assembly`, `HTML/CSS`, `Javascript/Typescript`
 - Frameworks: `numpy`, `pandas`, `matplotlib`, `pytorch`, `flask`, `sqlite`
 - Operating systems: `Arch Linux` (main), `Fedora Linux` (secondary), `Ubuntu Server` (self-hosted server)
+
+### AI Projects
+1. [Local RAG](https://github.com/ill-usion/simple-local-rag): A practical Retrieval Augmented Generation implementation
+1. [KMeans](https://github.com/ill-usion/KMeans): K-means implementation in C
+
+### Embedded Projects
+1. [Weather Data Collector](https://github.com/ill-usion/weather-data-collector): Local weather data collector that aims to be self-sustaining using solar power
+1. [Macro Keypad](https://github.com/ill-usion/macro-keyboard/tree/main/src): DIY programmable shortcut keypad

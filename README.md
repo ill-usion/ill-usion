@@ -17,3 +17,5 @@
 ### Embedded Projects
 1. [Weather Data Collector](https://github.com/ill-usion/weather-data-collector): Local weather data collector that aims to be self-sustaining using solar power
 1. [Macro Keypad](https://github.com/ill-usion/macro-keyboard/tree/main/src): DIY programmable shortcut keypad
+
+**🚧 WORK IN PROGRESS 🚧**

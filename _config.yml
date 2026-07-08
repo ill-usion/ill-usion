@@ -3,3 +3,7 @@ title: Ahmed's Blog
 author: Ahmed Al-Hadhrami
 description: Documenting my process of learning and building projects in the realm of embedded and software development.
 lang: en
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

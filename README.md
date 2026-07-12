@@ -12,6 +12,7 @@
 
 ### AI Projects
 1. [Local RAG](https://github.com/ill-usion/simple-local-rag): A practical Retrieval Augmented Generation implementation
+1. [Better Local RAG](https://github.com/ill-usion/better-local-rag): An improved version of the local RAG implementation with a web interface
 1. [KMeans](https://github.com/ill-usion/KMeans): K-means implementation in C
 
 ### Embedded Projects

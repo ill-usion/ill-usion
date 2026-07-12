@@ -1,6 +1,6 @@
 ---
 title: Building A Fully Programmable DIY Macro Keypad
-published: false
+published: true
 ---
 
 Macro keypads are undoubtably a useful addition to one's productivitiy setup, where each key can be bound to perform a specific action tailored to your needs. They have grown in popularity in the past few years, with some being commercialized and marketed at a very extravagent price for what they are. Some feature displays, knobs, sliders, and offer a wide range of customizability and functionality.

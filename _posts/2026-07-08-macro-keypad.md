@@ -15,7 +15,7 @@ In this blog, I will focus on designing and building a simple, yet affordable ma
 I started off by designing the enclosure. Something that is compact, ergonomic, easy to 3D print, and most importantly visually appealing. The design process took a few iterations, but I finally settled on a design that mimics the shape of a standalone numpad:
 
 <p align=center>
-    <img src="assets/img/keypad/enclosure-cad.jpg" width=600/>
+    <img src="../../../assets/img/keypad/enclosure-cad.jpg" width=600/>
 </p>
 
 I then proceeded to print the parts using the help of my university's facilities. 
@@ -48,7 +48,7 @@ Another option of microcontrollers is the WCH lineup. An extremely affordable op
 
 What makes this project very cheap is the ability to use off the shelf parts. Take for example the mechanical keyboard switches and keycaps, I salvaged them from an old, broken keyboard and ended up with a box of them:
 <p align=center>
-    <img src="assets/img/keypad/keyboard-switches.jpg" width=600/>
+    <img src="../../../assets/img/keypad/keyboard-switches.jpg" width=600/>
 </p>
 
 ## Putting Everything Together
@@ -58,7 +58,7 @@ First step was to put all 12 keyboard switches into the top plate. Sadly, I don'
 Next was to solder everything together according to the following schematic:
 
 <p align=center>
-    <img src="assets/img/keypad/schematic.jpg" width=600/>
+    <img src="../../../assets/img/keypad/schematic.jpg" width=600/>
 </p>
 <sub>*Analog pins can also be used as digital pins depending on the microcontroller.</sub>
 <br/>
@@ -69,7 +69,7 @@ Looking at the schematic above, we can see that the top part represents the led 
 Solid core copper wires were stripped of their insulation and used to connect the first pin of each key to ground, and normal wires were used for connecting the other pin to its corresponding pin in the microcontroller: 
 
 <p align=center>
-    <img src="assets/img/keypad/soldered-keypad.jpg" width=600/>
+    <img src="../../../assets/img/keypad/soldered-keypad.jpg" width=600/>
 </p>
 
 After securing the microcontroller using the 3D printed tab with the help of screws and screwing the top plate in, the keypad is finally done, or at least the hardware part.
@@ -80,7 +80,7 @@ Before we start writing any code, we have to figure out a way to save user setti
 
 Looking at the [ATmega32u4's datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf), more specifically into the memory mappings, we find the following table:
 <p align=center>
-    <img src="assets/img/keypad/32u4-docs.png" width=600 />
+    <img src="../../../assets/img/keypad/32u4-docs.png" width=600 />
 </p>
 
 Apart from the small flash size, we see something called EEPROM, and this is what Wikipedia has to say about it:
@@ -96,7 +96,7 @@ Since we do not have a lot of memory to work with (only 1024 bytes), we have to 
 Instead of serializing the data into textual, human-readable formats like JSON or XML, which would contain many useless characters to our macro data like "{" or ":", we can store everything into a contiguous memory block:
 
 <p align=center>
-    <img src="assets/img/keypad/serialized-vs-packed.png" width=600 />
+    <img src="../../../assets/img/keypad/serialized-vs-packed.png" width=600 />
 </p>
 
 <sub>*Hexadecimal values are in little endian.</sub>
